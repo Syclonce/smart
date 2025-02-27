@@ -5,6 +5,10 @@
     </head>
 
     <body data-sidebar="dark">
+        <!-- END layout-wrapper -->
+
+        @include('layouts.home.scripts')
+
         <!-- Begin page -->
         <div id="layout-wrapper">
 
@@ -39,9 +43,5 @@
             <!-- end main content-->
 
         </div>
-        <!-- END layout-wrapper -->
-
-        @include('layouts.home.scripts')
-
     </body>
 </html>
